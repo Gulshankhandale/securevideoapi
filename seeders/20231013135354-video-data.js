@@ -16,20 +16,20 @@ module.exports = {
     {
       name: 'video1',
       url: '/storage/videos/sample-5s.mp4',
-      createdAt: new Date(),
-      updatedAt: new Date()
+      created_at: new Date(),
+      updated_at: new Date()
     },
     {
       name: 'video2',
       url: '/storage/videos/sample-5s.mp4',
-      createdAt: new Date(),
-      updatedAt: new Date()
+      created_at: new Date(),
+      updated_at: new Date()
     },
     {
       name: 'video3',
       url: '/storage/videos/sample-5s.mp4',
-      createdAt: new Date(),
-      updatedAt: new Date()
+      created_at: new Date(),
+      updated_at: new Date()
     }
    ])
 
