@@ -111,7 +111,7 @@ app.post("/get-encrypted-video", async (req, res) => {
     where: {
       id: video_id,
     },
-    attributes: ["name", [Sequelize.fn("CONCAT", "http://localhost:3002", Sequelize.col('url')), "url"], "created_at"],
+    attributes: ["name", [Sequelize.fn("CONCAT", "http://13.126.59.60:3002", Sequelize.col('url')), "url"], "created_at"],
   });
 
   const encryptedUrl = encrypt(video.url);
